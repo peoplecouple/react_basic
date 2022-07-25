@@ -1,0 +1,7 @@
+구글에서 개발한 크롬의 엔진 v8 을 뚝 떼내어 
+런타임 - 개발환경인 node.js를 만들어 냄
+각종 프레임워크에 다 쓸 수 있게 됨, javascript해석이 빠르다
+npm - Node.js Package Manager, node.js로 만들어진 프로그램을 쉽게 설치하게 해주는 것
+
+node.js로 인해 javascript로 백엔드 영역까지 가능. 서버를 만들 수 있다.
+

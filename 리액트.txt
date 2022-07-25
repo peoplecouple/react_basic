@@ -5,3 +5,31 @@ npm - Node.js Package Manager, node.js로 만들어진 프로그램을 쉽게 �
 
 node.js로 인해 javascript로 백엔드 영역까지 가능. 서버를 만들 수 있다.
 
+node.js를 깔고 나면 npm도 자동으로 설치됨
+
+리액트를 까는 방법
+터미널에 npx create-react-app 폴더명(한글,대문자 안됨)
+
+npx 는  npm을 좀 더 편하게 사용하기 위해서 npm에서 제공해주는 하나의 도구
+npx 는 패키지를 임시 설치해서 "실행"하는 용도
+react 와 같은 library 를 설치할 수는 있지만 실행이 안 되므로 npx로 설치가 불가능
+만약 npx 로 react를 설치할거라면 create-react-app 라는 명령어로 사용해,
+CRA 가 알아서 react 를 설치하게 만들어야 함. npx 자체로는 불가능
+
+설치를 완료하면 폴더가 생긴다.
+
+폴더로 이동한후 (cd 폴더명)
+
+npm start를 터미널에 입력하면 react의 라이브서버 localhost가 실행됨
+
+package.json은 해당 프로젝트의 설정을 한눈에 확인할 수 있는 환경 파일
+
+public 폴더에 이미지 갖다둠
+
+public 폴더의 index.html에 
+
+App.js에서 기능을 뿌린다.
+src의 index.js에서는 우리가 만들어쓰는 html App컴포넌트를 뿌린다.
+그리고 index.js는 public 폴더의 index.html에서 보여짐
+
+robots.txt 는 검색엔진에서 검색되도록 할때 수정해주면 된다.
